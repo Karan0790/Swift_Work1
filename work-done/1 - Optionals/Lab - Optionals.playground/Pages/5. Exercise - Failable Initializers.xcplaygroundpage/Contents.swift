@@ -37,3 +37,59 @@ if let comp = asus{
 /*:
 [Previous](@previous)  |  page 5 of 6  |  [Next: App Exercise - Workout or Nil](@next)
  */
+//class Student{
+//    var age: Int
+//    var name: String
+//    var mentor: Mentor?
+//    
+//    init?(age:Int,name:String,mentor:Mentor){
+//        if name.isEmpty || age<10{
+//            return nil
+//        }else{
+//            self.age = age
+//            self.name = name
+//            self.mentor = mentor
+//        }
+//    }
+//    
+//    func getMentorSpecialization()->String?{
+//        mentor?.specialization
+//    }
+//}
+//
+//class Mentor{
+//    var specialization: String?
+//    
+//    init(specialization: String?) {
+//        self.specialization = specialization
+//    }
+//    
+//}
+//
+//let student1 = Student(age: 11, name: "", mentor: Mentor(specialization: "iOS"))
+//if let sMentor = student1?.getMentorSpecialization(){
+//    print(sMentor)
+//}else{
+//    print("you cannot fetch the mentor details")
+//}
+//
+//let student2 = Student(age: 10, name: "Alice", mentor: Mentor(specialization: "Cyber Security"))
+//if let sMentor = student2?.getMentorSpecialization(){
+//    print(sMentor)
+//}else{
+//    print("you cannot fetch the mentor details")
+//}
+//
+//let student3 = Student(age: 20, name: "Bob", mentor: Mentor(specialization: nil))
+//if let sMentor = student3?.getMentorSpecialization(){
+//    print(sMentor)
+//}else{
+//    print("you cannot fetch the mentor details")
+//}
+//
+//let student4 = Student(age: 20, name: "Bob", mentor: Mentor(specialization: "Fe-dev"))
+//if let sMentor = student4?.getMentorSpecialization(){
+//    print(sMentor)
+//}else{
+//    print("you cannot fetch the mentor details")
+//}
